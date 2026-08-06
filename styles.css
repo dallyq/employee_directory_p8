@@ -92,22 +92,22 @@ h1 {
     border: none;
 }
 
-.overlay-modal {
+.modal-content {
     text-align: center;
     background: #fff;
     border-radius: 5px;
+}
+
+.modal-content p {
+    margin-top: 10px;
+    color: rgb(125, 125, 125);
 }
 
 .modal-content .avatar {
     border-radius: 100%;
 }
 
-.overlay-modal p {
-    color: rgb(156, 156, 156);
-    padding-top: 5px;
-}
-
-.overlay-modal hr {
+.modal-content hr {
     margin: 30px;
 }
 
