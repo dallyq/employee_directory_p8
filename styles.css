@@ -26,6 +26,7 @@ h1 {
 }
 
 .card {
+    grid-column: 1 span 2;
     display: flex;
     border: 2px solid rgb(156, 156, 156);
     border-radius: 2%;
