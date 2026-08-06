@@ -22,11 +22,16 @@ h1,
 }
 
 .name {
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .text-container {
     font-size: 15px;
+}
+
+.email,
+.address {
+    padding-top: 5px;
 }
 
 h1 {
