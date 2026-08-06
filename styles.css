@@ -5,21 +5,26 @@
 }
 
 body {
-    padding-left: 40px;
+    padding: 40px;
     position: relative;
     font-family: 'Playfair Display', 'Helvetica', 'Inter', 'Segoe UI';
 }
 
-h1,
 .email,
 .address {
     color: rgb(156, 156, 156);
 }
 
+h1,
+.name {
+    color: rgb(71, 71, 71);
+}
+
 h1 {
     text-transform: uppercase;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 40px;
 }
 
 .grid-container {
