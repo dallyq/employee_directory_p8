@@ -76,7 +76,7 @@ function displayModal(index) {
 
 }
 
-// Event listeners
+// event listeners
 gridContainer.addEventListener('click', e => {
 
     // make sure the click is not on the gridContainer itself
