@@ -5,6 +5,7 @@
 }
 
 body {
+    padding-left: 40px;
     position: relative;
     font-family: 'Playfair Display', 'Helvetica', 'Inter', 'Segoe UI';
 }
@@ -17,6 +18,8 @@ h1,
 
 h1 {
     text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .grid-container {
