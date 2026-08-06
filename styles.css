@@ -6,6 +6,13 @@
 
 body {
     position: relative;
+    font-family: 'Playfair Display', 'Helvetica', 'Inter', 'Segoe UI';
+}
+
+h1,
+.email,
+.address {
+    color: rgb(156, 156, 156);
 }
 
 h1 {
@@ -19,8 +26,13 @@ h1 {
 }
 
 .card {
-    background-color: red;
+    display: flex;
+    border: 2px solid rgb(156, 156, 156);
+    border-radius: 2%;
+}
 
+.avatar {
+    border-radius: 100%;
 }
 
 .overlay {
