@@ -8,6 +8,7 @@ body {
     padding: 40px;
     position: relative;
     font-family: 'Playfair Display', 'Helvetica', 'Inter', 'Segoe UI';
+    background-color: rgb(249, 249, 249);
 }
 
 .email,
@@ -38,17 +39,17 @@ h1 {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
+    grid-gap: 30px;
 }
 
 .card {
     display: flex;
-    grid-column: 1 span 2;
     align-items: center;
     padding: 20px 20px;
-    border: 2px solid rgb(156, 156, 156);
+    border: 2px solid rgb(199, 197, 197);
     border-radius: 2%;
     width: 380px;
+    background-color: white;
 }
 
 .avatar {
