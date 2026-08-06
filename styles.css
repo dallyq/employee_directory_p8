@@ -60,7 +60,6 @@ h1 {
 .avatar {
     height: 100px;
     border-radius: 100%;
-    margin-right: 20px;
 }
 
 .overlay {
@@ -90,16 +89,21 @@ h1 {
     cursor: pointer;
 }
 
-/* .modal-content {
-    width: 375px;
-    margin: 15% auto auto;
-    position: relative;
+.overlay-modal {
+    justify-content: center;
     text-align: center;
     background: #fff;
-    border: 1px solid #778;
     border-radius: 5px;
-    padding: 30px 20px;
-} */
+}
+
+.overlay-modal p {
+    color: rgb(156, 156, 156);
+    padding-top: 5px;
+}
+
+.overlay-modal hr {
+    margin: 30px;
+}
 
 .hidden {
     display: none;
