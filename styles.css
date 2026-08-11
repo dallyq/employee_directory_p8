@@ -32,20 +32,20 @@ h1,
     padding-top: 6px;
 }
 
-h1 {
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 500;
-    margin: 40px 0;
-    margin-left: 40px;
-}
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     grid-gap: 30px;
     padding: 0 40px;
     max-width: 1608px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 40px 0;
+    margin-left: 40px;
 }
 
 .card {
@@ -122,3 +122,23 @@ h1 {
 .hidden {
     display: none;
 }
+
+/* @media screen and (max-width: 767px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: minmax(360px, 1fr);
+        grid-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+} */
