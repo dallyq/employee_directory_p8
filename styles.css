@@ -22,16 +22,15 @@ h1,
 }
 
 .name {
-    font-size: 17px;
-}
-
-.text-container {
     font-size: 15px;
 }
 
-.email,
-.address {
-    padding-top: 5px;
+.text-container {
+    font-size: 12px;
+}
+
+.text-container p {
+    padding-top: 6px;
 }
 
 h1 {
@@ -44,7 +43,7 @@ h1 {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 360px));
     grid-gap: 30px;
 }
 
@@ -58,9 +57,9 @@ h1 {
 }
 
 .card .avatar {
-    height: 100px;
     border-radius: 100%;
-    padding-right: 10px;;
+    height: 100px;
+    padding-right: 10px;
 }
 
 .overlay {
@@ -98,9 +97,17 @@ h1 {
     border-radius: 5px;
 }
 
+.modal {
+    border: 1px solid rgb(125, 125, 125);
+}
+
+.modal h2 {
+    margin-top: 10px;;
+}
+
 .modal-content p {
-    margin-top: 10px;
-    color: rgb(125, 125, 125);
+   /* margin-top: 5px; */
+    color: rgb(145, 145, 145);
 }
 
 .modal-content .avatar {
